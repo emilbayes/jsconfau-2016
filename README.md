@@ -2,7 +2,7 @@
 
 ## Errata
 
-* __SHA-1__: I'm not sure I made it clear, but SHA-1 is not suitable as a hash function for new projects. It's might be necessary to use for existing system, eg. when working with git, but should be avoided for newer systems. SHA-1 SSL certificates are no longer valid. Even though [collisions cost upwards of $20K](https://sites.google.com/site/itstheshappening/) of computing power as of end 2015, there are better, faster crypto functions available, like SHA-256 and BLAKE2.
+* __SHA-1__: I'm not sure I made it clear, but SHA-1 is not suitable as a hash function for new projects. It's might be necessary to use for existing system, eg. when working with git, but should be avoided for newer systems. SHA-1 SSL certificates are no longer valid as of 2017. Even though [collisions cost upwards of $120K](https://sites.google.com/site/itstheshappening/) of computing power as of end 2015, there are better, faster crypto functions available, like SHA-256 and BLAKE2.
 
 ## Examples
 
